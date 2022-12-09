@@ -19,7 +19,7 @@
 
 .bottom1{
 	width: 2%;
-	height: 3vh;
+	height: 4vh;
 	background-color: darkgray;
 	margin-top: 1%;
 	margin-left: 74%;
@@ -28,7 +28,7 @@
 
 .bottom2{
 	width: 2%;
-	height: 3vh;
+	height: 4vh;
 	background-color: darkgray;
 	margin-top: 1%;
 	margin-right: 0.5%;
@@ -36,7 +36,7 @@
 
 .bottom3{
 	width: 2%;
-	height: 3vh;
+	height: 4vh;
 	background-color: darkgray;
 	margin-top: 1%;
 	margin-right: 0.5%;
@@ -52,51 +52,46 @@
 
 .worldcup{
 	width: 20%;
-	height: 80vh;
+	height: 147.7vh;
 	background-color: darkgray;
 	margin-top: 2%;
 	margin-left: 2%;
 }
 
 p{
-	margin-top: 2%;
-	margin-left: 2%;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-bottom: 58%;
 }
 
 .square{
-	width: 40.5%;
+	width: 38.7%;
 	height: 50.5vh;
 	background-color: darkgray;
 	margin-top: 2%;
 	margin-left: 2%;
 }
 
-.square1{
-	width: 25.5%;
-	height: 38.5vh;
+.squares {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	height: 155vh;
+	width: 35vw;
+}
+
+.squares div {
+	width: 50%;
+	height: 13.5%;
 	background-color: pink;
-	margin-top: 2%;
-	margin-left: 2%;
-	margin-right: 5%;
-	display: flex;
-	flex-direction: column;
+	margin: 0.5em;
+	margin-left: 1.5em;
 }
 
-.square2{
-	width: 25.5%;
-	height: 38.5vh;
-	background-color: purple;
-	margin-right: 5%;
+.squares div p{
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: column;
-}
-
-.square3{
-	width: 25.5%;
-	height: 38.5vh;
-	background-color: yellow;
-	margin-top: 2%;
-	margin-right: 5%;
-	display: flex;
-	flex-direction: column;
+	margin: 5em;
+	margin-left: 10%;
 }
